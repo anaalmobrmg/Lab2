@@ -1,0 +1,18 @@
+What are the values of the following expressions? In each line, assume that
+String s = "Hello";
+String t = "World";
+----
+// طول الكلمة + طولة الكلمة الاخرى = 10
+a. s.length() + t.length()
+----------------------------------------
+// e راح يظهر كلمة  
+b. s.substring(1, 2)
+--------------------------------------
+// راح يظهر كلمة llo
+c. s.substring(s.length() / 2, s.length())
+-----------------------------------------
+// Helloworld دمج بين سترنج وراح يظهر 
+d. s + t
+-----------------------------------------
+// WorldHello دمج بين سترنج وراح يظهر 
+e. t + s
